@@ -9,7 +9,7 @@ const { mergeTypes } = require('merge-graphql-schemas');
 const userTypes = require('./user').types;
 
 const types = [
-	userTypes
+  userTypes
 ];
 
 module.exports = mergeTypes(types, { all: true });

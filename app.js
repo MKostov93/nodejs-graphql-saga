@@ -19,11 +19,6 @@ const configureGraphql = require('./config/graphql/index');
 const constructPath = require('./src/utils/constructPath');
 
 /**
- * ROUTES.
- */
-const routes = require('./src/routes');
-
-/**
  * MIDDLEWARE.
  */
 const setResponseAccessHeaders = require('./src/middleware/setResponseAccessHeaders');

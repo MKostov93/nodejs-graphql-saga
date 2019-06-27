@@ -9,7 +9,7 @@ const { mergeResolvers } = require('merge-graphql-schemas');
 const userResolvers = require('./user').resolvers;
 
 const resolvers = [
-	userResolvers
+  userResolvers
 ];
 
 module.exports = mergeResolvers(resolvers);
