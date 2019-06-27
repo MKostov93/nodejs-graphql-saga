@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-graphql-saga",
+  "version": "1.0.0",
+  "description": "Node.js boilerplate for building REST API using GraphQL.",
+  "main": "app.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=testing mocha ./src/test --recursive --timeout 5000",
+    "dev": "cross-env NODE_ENV=development node app.js",
+    "production": "cross-env NODE_ENV=production node app.js",
+    "serve": "nodemon --exec npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKostov93/nodejs-graphql-saga.git"
+  },
+  "author": "MKostov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MKostov93/nodejs-graphql-saga/issues"
+  },
+  "homepage": "https://github.com/MKostov93/nodejs-graphql-saga#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.1",
+    "graphql-tools": "^4.0.5",
+    "helmet": "^3.18.0",
+    "merge-graphql-schemas": "^1.5.8",
+    "mongoose": "^5.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.0"
+  }
+}
